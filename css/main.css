@@ -1,0 +1,73 @@
+@font-face {
+  font-family: 'Hack';
+  src: url('../assets/fonts/hack-regular.webfont.ttf');
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('../assets/fonts/SourceSansPro-Black.ttf');
+}
+
+@font-face {
+  font-family: 'Source Code Pro';
+  src: url('../assets/fonts/SourceCodePro-Regular.ttf');
+}
+
+#cp_get_pen {
+  height: 35px;
+  background: #5b5;
+}
+
+#cp_editor_container {
+  position: absolute;
+  top: 35px;
+  width: 100vw;
+  height: 300px;
+  font-size: 0;
+  display: flex;
+}
+
+.cp_editor {
+  margin: auto;
+  font-size: 15px;
+  display: inline-block;
+  width: calc(100vw / 3);
+  border-left: 5px solid #eee;
+  border-right: 5px solid #eee;
+}
+
+.CodeMirror-linenumber {
+  font-family: 'Source Code Pro';
+
+}
+.CodeMirror pre {
+  font-family: 'Source Code Pro';
+}
+
+.cp_editor_header {
+  height: 32px;
+  line-height: 32px;
+  font-size: 16px;
+  font-family: 'Source Sans Pro';
+  color: #888;
+  background: #eee;
+}
+
+.cp_editor_name {
+  padding-left: 10px;
+}
+
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
