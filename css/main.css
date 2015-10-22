@@ -20,8 +20,7 @@
 }
 
 #cp_editor_container {
-  position: absolute;
-  top: 60px;
+  position: relative;
   width: 100vw;
   height: 300px;
   font-size: 0;
